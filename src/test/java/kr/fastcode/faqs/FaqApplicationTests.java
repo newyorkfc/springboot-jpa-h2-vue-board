@@ -1,13 +1,12 @@
-package com.example.board;
+package kr.fastcode.faqs;
+
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BoardApplicationTests {
-
+class FaqApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }

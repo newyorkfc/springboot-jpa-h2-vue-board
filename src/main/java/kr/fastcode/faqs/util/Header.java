@@ -1,4 +1,4 @@
-package com.example.board.model;
+package kr.fastcode.faqs.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package com.example.board.entity;
+package kr.fastcode.faqs.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name="BOARD")
+@Table(name="faqs")
 @Entity
-public class BoardEntity {
+public class FaqEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idx;

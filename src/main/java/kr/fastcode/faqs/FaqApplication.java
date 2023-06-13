@@ -1,11 +1,11 @@
-package com.example.board;
+package kr.fastcode.faqs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BoardApplication {
+public class FaqApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(BoardApplication.class, args);
+		SpringApplication.run(FaqApplication.class, args);
 	}
 }
